@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "569733863339",
+    "project_id": "proyectoteamgf",
+    "storage_bucket": "proyectoteamgf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569733863339:android:3aab9662ef5825a376a4ee",
+        "android_client_info": {
+          "package_name": "com.example.proyectoteamgf"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHPMzPOLhztwx-ysNH6QzJb3BcI-TmkHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

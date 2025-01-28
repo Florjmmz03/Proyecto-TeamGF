@@ -32,7 +32,7 @@ class First2Fragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonFirst.setOnClickListener {
+        binding.imageButton3.setOnClickListener {
             findNavController().navigate(R.id.action_First2Fragment_to_Second2Fragment)
         }
     }
