@@ -1,6 +1,5 @@
 package com.example.proyectoteamgf.viewModel
 
-
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -14,7 +13,7 @@ class SignUpViewModel: ViewModel() {
         viewModelScope.launch {
             val result = repository.registerUser(email, password)
             result?.let { user ->
-                Log.i("Session", "Se creo correctamente el usuario")
+                Log.i("Session", "SE ha creado el usuario")
             } ?: run {
                 Log.e("Error", "No se pudo crear el usuario")
             }
