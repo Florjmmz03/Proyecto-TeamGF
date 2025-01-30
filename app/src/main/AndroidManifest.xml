@@ -17,11 +17,7 @@
             android:exported="false"
             android:theme="@style/Theme.ProyectoTeamGF" />
         <activity
-            android:name=".MainActivity"
-            android:exported="false"
-            android:theme="@style/Theme.ProyectoTeamGF" />
-        <activity
-            android:name=".MainActivity2"
+            android:name=".OnboardingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

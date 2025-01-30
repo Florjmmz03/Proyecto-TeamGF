@@ -17,8 +17,8 @@
         tools:layout_editor_absoluteX="228dp"
         tools:src="@tools:sample/avatars" />
 
-    <TextView
-        android:id="@+id/textView6"
+    <EditText
+        android:id="@+id/emailLogin"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -29,8 +29,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
-    <TextView
-        android:id="@+id/textView7"
+    <EditText
+        android:id="@+id/passwordLogin"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -39,10 +39,10 @@
         android:text="Contraseña:"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintTop_toBottomOf="@+id/emailLogin" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonIngresar"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_marginStart="16dp"
@@ -51,11 +51,11 @@
         android:text="Ingresar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/passwordLogin"
         app:rippleColor="#673AB7" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/Registrate"
         android:layout_width="wrap_content"
         android:layout_height="32dp"
         android:layout_marginStart="16dp"
